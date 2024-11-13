@@ -1,0 +1,160 @@
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  }
+}
+
+.stopwatch-container {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.timer-container {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  width: 350px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+@media screen and (max-width: 575px) {
+  .timer-container {
+    width: 200px;
+    height: 180px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .stopwatch-container{
+    width: 600px;
+  }
+  .timer-container{
+    width: 300px;
+    height: 250px;
+  }
+}
+
+@media screen and (min-width:768px){
+  .heading{
+    font-size: 50px;
+  }
+}
+
+.timer-label {
+  display: flex;
+  align-items: center;
+}
+
+.timer-icon {
+  height: 20px;
+  width: 20px;
+}
+.timer-text {
+  font-size: large;
+  font-weight: bold;
+  margin-left: 3px;
+  margin: 0px;
+}
+
+.timer {
+  font-size: 30px;
+}
+
+@media screen and (min-width:576px){
+  .timer{
+    font-size: 50px;
+  }
+}
+
+.btns-container {
+  display: flex;
+}
+
+.btn1 {
+  background-color: #1db05f;
+  border: none;
+  border-radius: 10px;
+  width: 70px;
+  height: 30px;
+  cursor: pointer;
+  outline: none;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.btn2 {
+  background-color: #ef0d36;
+  border: none;
+  border-radius: 10px;
+  width: 70px;
+  height: 30px;
+  cursor: pointer;
+  outline: none;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.btn3 {
+  background-color: #eaa800;
+  border: none;
+  border-radius: 10px;
+  width: 70px;
+  height: 30px;
+  cursor: pointer;
+  outline: none;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+@media screen and (max-width: 575px) {
+  .btn1 {
+    height: 20px;
+    width: 40px;
+    font-size: 10px;
+    border-radius: 2px;
+    text-align: center;
+  }
+  .btn2 {
+    height: 20px;
+    width: 40px;
+    font-size: 10px;
+    border-radius: 2px;
+    text-align: center;
+  }
+  .btn3 {
+    height: 20px;
+    width: 40px;
+    font-size: 10px;
+    border-radius: 2px;
+    text-align: center;
+  }
+}
